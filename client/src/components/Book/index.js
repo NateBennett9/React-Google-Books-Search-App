@@ -8,7 +8,7 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
     <ListItem>
       <Row className="flex-wrap-reverse">
         <Col size="md-8">
-          <h3 className="font-italic">{title}</h3>
+          <h3 className="font-large">{title}</h3>
           {subtitle && <h5 className="font-italic">{subtitle}</h5>}
         </Col>
         <Col size="md-4">
@@ -21,7 +21,7 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
         </Col>
       </Row>
       <Row>
-        <Col size="md-6">
+        <Col size="sm-6">
           <p className="font-italic small">Written by {authors}</p>
         </Col>
       </Row>
