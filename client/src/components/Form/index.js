@@ -22,7 +22,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
         <button
           onClick={handleFormSubmit}
           type="submit"
-          className="btn btn-md btn-warning float-left"
+          className="btn btn-lg btn-warning float-left"
         >
           Search
         </button>

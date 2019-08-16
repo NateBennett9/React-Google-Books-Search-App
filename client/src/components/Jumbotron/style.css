@@ -4,5 +4,14 @@
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
-  font-size: 10%;
+
 }
+
+.text-center {
+    -webkit-animation: mymove 3s infinite;
+    animation: mymove 3s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {text-shadow: 10px 20px 30px yellow;}
+  }
