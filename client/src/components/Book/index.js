@@ -8,12 +8,12 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
     <ListItem>
       <Row className="flex-wrap-reverse">
         <Col size="md-8">
-          <h3 className="font-large">{title}</h3>
+          <h3 className="font-bold">{title}</h3>
           {subtitle && <h5 className="font-italic">{subtitle}</h5>}
         </Col>
         <Col size="md-4">
           <div className="btn-container">
-            <a className="btn btn-light" target="_blank" rel="noopener noreferrer" href={link}>
+            <a className="btn btn-warning" target="_blank" rel="noopener noreferrer" href={link}>
               View
             </a>
             <Button />
@@ -22,7 +22,7 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
       </Row>
       <Row>
         <Col size="sm-6">
-          <p className="font-italic small">Written by {authors}</p>
+          <p className="font-italic">Written by {authors}</p>
         </Col>
       </Row>
       <Row>
