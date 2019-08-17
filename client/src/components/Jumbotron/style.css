@@ -13,5 +13,5 @@
   }
   
   @keyframes mymove {
-    50% {text-shadow: 10px 20px 30px yellow;}
+    50% {text-shadow: 5px 5px 10px yellow;}
   }

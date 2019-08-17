@@ -28,6 +28,7 @@ class Saved extends Component {
 
   handleBookDelete = id => {
     API.deleteBook(id).then(res => this.getSavedBooks());
+    alert("deleted");
   };
 
   render() {
